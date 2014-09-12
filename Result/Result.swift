@@ -9,7 +9,7 @@
 import Foundation
 
 public enum Result<T> {
-    case Failure(Error)
+    case Failure(ErrorType)
 
     // TODO: Get rid of @autoclosure hack at some point after 6.1b1
     case Success(@autoclosure () -> T)
