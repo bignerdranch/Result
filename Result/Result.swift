@@ -14,6 +14,20 @@ public enum Result<T> {
     // TODO: Get rid of @autoclosure hack at some point after 6.1b1
     case Success(@autoclosure () -> T)
 
+    public var successValue: T? {
+        switch self {
+        case let .Success(success): return success()
+        case .Failure: return nil
+        }
+    }
+
+    public var failureValue: ErrorType? {
+        switch self {
+        case .Success: return nil
+        case let .Failure(error): return error
+        }
+    }
+
     public var isSuccess: Bool {
         switch self {
         case .Success: return true
