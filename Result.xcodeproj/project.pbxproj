@@ -19,6 +19,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		43384AE21AA8D9DE00BCEBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D470AC3719E86128003DA6C6;
+			remoteInfo = "Box-Mac";
+		};
+		43384AE41AA8D9DE00BCEBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D470AC4219E86128003DA6C6;
+			remoteInfo = "Box-MacTests";
+		};
+		43384AE61AA8D9DE00BCEBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8BB81D31A939B66001AA352;
+			remoteInfo = "Box-iOS";
+		};
+		43384AE81AA8D9DE00BCEBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8BB81DD1A939B67001AA352;
+			remoteInfo = "Box-iOSTests";
+		};
+		43384AEA1AA8D9F000BCEBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BB81D21A939B66001AA352;
+			remoteInfo = "Box-iOS";
+		};
+		43384AEC1AA8D9FB00BCEBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D470AC3619E86128003DA6C6;
+			remoteInfo = "Box-Mac";
+		};
 		52B9AEA819C35B1D0039E5D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52B9AE9219C35B1D0039E5D7 /* Project object */;
@@ -36,6 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Box.xcodeproj; path = Box/Box.xcodeproj; sourceTree = "<group>"; };
 		52B9AE9B19C35B1D0039E5D7 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B9AE9F19C35B1D0039E5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B9AEA019C35B1D0039E5D7 /* Result.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
@@ -85,9 +128,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43384ADA1AA8D9CF00BCEBFF /* Box */ = {
+			isa = PBXGroup;
+			children = (
+				43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */,
+			);
+			name = Box;
+			sourceTree = "<group>";
+		};
+		43384ADC1AA8D9DE00BCEBFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43384AE31AA8D9DE00BCEBFF /* Box.framework */,
+				43384AE51AA8D9DE00BCEBFF /* Box-MacTests.xctest */,
+				43384AE71AA8D9DE00BCEBFF /* Box.framework */,
+				43384AE91AA8D9DE00BCEBFF /* Box-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		52B9AE9119C35B1D0039E5D7 = {
 			isa = PBXGroup;
 			children = (
+				43384ADA1AA8D9CF00BCEBFF /* Box */,
 				52B9AE9D19C35B1D0039E5D7 /* Result */,
 				52B9AEAA19C35B1D0039E5D7 /* ResultTests */,
 				52B9AF3C19C35F5F0039E5D7 /* ResultMac */,
@@ -210,6 +273,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				43384AEB1AA8D9F000BCEBFF /* PBXTargetDependency */,
 			);
 			name = Result;
 			productName = Result;
@@ -246,6 +310,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				43384AED1AA8D9FB00BCEBFF /* PBXTargetDependency */,
 			);
 			name = ResultMac;
 			productName = ResultMac;
@@ -303,6 +368,12 @@
 			mainGroup = 52B9AE9119C35B1D0039E5D7;
 			productRefGroup = 52B9AE9C19C35B1D0039E5D7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 43384ADC1AA8D9DE00BCEBFF /* Products */;
+					ProjectRef = 43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				52B9AE9A19C35B1D0039E5D7 /* Result */,
@@ -312,6 +383,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		43384AE31AA8D9DE00BCEBFF /* Box.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Box.framework;
+			remoteRef = 43384AE21AA8D9DE00BCEBFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43384AE51AA8D9DE00BCEBFF /* Box-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Box-MacTests.xctest";
+			remoteRef = 43384AE41AA8D9DE00BCEBFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43384AE71AA8D9DE00BCEBFF /* Box.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Box.framework;
+			remoteRef = 43384AE61AA8D9DE00BCEBFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43384AE91AA8D9DE00BCEBFF /* Box-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Box-iOSTests.xctest";
+			remoteRef = 43384AE81AA8D9DE00BCEBFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		52B9AE9919C35B1D0039E5D7 /* Resources */ = {
@@ -381,6 +483,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		43384AEB1AA8D9F000BCEBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Box-iOS";
+			targetProxy = 43384AEA1AA8D9F000BCEBFF /* PBXContainerItemProxy */;
+		};
+		43384AED1AA8D9FB00BCEBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Box-Mac";
+			targetProxy = 43384AEC1AA8D9FB00BCEBFF /* PBXContainerItemProxy */;
+		};
 		52B9AEA919C35B1D0039E5D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 52B9AE9A19C35B1D0039E5D7 /* Result */;
@@ -655,6 +767,7 @@
 				52B9AF5019C35F5F0039E5D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52B9AF5119C35F5F0039E5D7 /* Build configuration list for PBXNativeTarget "ResultMacTests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +776,7 @@
 				52B9AF5319C35F5F0039E5D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
