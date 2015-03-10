@@ -7,16 +7,17 @@
 //
 
 import Foundation
+import Box
 
 public enum Result<T> {
     case Failure(ErrorType)
 
-    // TODO: Get rid of @autoclosure hack at some point after 6.1b1
-    case Success(@autoclosure () -> T)
+    // TODO: Get rid of Box hack at some point after 6.3
+    case Success(Box<T>)
 
     public var successValue: T? {
         switch self {
-        case let .Success(success): return success()
+        case let .Success(success): return success.value
         case .Failure: return nil
         }
     }
@@ -45,14 +46,14 @@ public enum Result<T> {
     public func map<U>(f: T -> U) -> Result<U> {
         switch self {
         case let .Failure(error): return .Failure(error)
-        case let .Success(value): return .Success(f(value()))
+        case let .Success(value): return .Success(Box(f(value.value)))
         }
     }
 
     public func bind<U>(f: T -> Result<U>) -> Result<U> {
         switch self {
         case let .Failure(error): return .Failure(error)
-        case let .Success(value): return f(value())
+        case let .Success(value): return f(value.value)
         }
     }
 }
@@ -61,7 +62,7 @@ extension Result: Printable {
     public var description: String {
         switch self {
         case let .Failure(error): return "Result.Failure(\(error))"
-        case let .Success(value): return "Result.Success(\(value()))"
+        case let .Success(value): return "Result.Success(\(value.value))"
         }
     }
 }
