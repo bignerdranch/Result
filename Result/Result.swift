@@ -15,6 +15,14 @@ public enum Result<T> {
     // TODO: Get rid of Box hack at some point after 6.3
     case Success(Box<T>)
 
+    public init(failure: ErrorType) {
+        self = .Failure(failure)
+    }
+
+    public init(success: T) {
+        self = .Success(Box(success))
+    }
+
     public var successValue: T? {
         switch self {
         case let .Success(success): return success.value
