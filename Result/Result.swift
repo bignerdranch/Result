@@ -12,7 +12,7 @@ import Box
 public enum Result<T> {
     case Failure(ErrorType)
 
-    // TODO: Get rid of @autoclosure hack at some point after 6.1b1
+    // TODO: Get rid of Box hack at some point after 6.3
     case Success(Box<T>)
 
     public var successValue: T? {
