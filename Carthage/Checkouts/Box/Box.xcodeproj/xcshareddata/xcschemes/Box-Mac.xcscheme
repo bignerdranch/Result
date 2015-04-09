@@ -14,24 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52B9AF3A19C35F5F0039E5D7"
-               BuildableName = "ResultMac.framework"
-               BlueprintName = "ResultMac"
-               ReferencedContainer = "container:Result.xcodeproj">
+               BlueprintIdentifier = "D470AC3619E86128003DA6C6"
+               BuildableName = "Box.framework"
+               BlueprintName = "Box-Mac"
+               ReferencedContainer = "container:Box.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52B9AF4419C35F5F0039E5D7"
-               BuildableName = "ResultMacTests.xctest"
-               BlueprintName = "ResultMacTests"
-               ReferencedContainer = "container:Result.xcodeproj">
+               BlueprintIdentifier = "D470AC4119E86128003DA6C6"
+               BuildableName = "Box-MacTests.xctest"
+               BlueprintName = "Box-MacTests"
+               ReferencedContainer = "container:Box.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52B9AF4419C35F5F0039E5D7"
-               BuildableName = "ResultMacTests.xctest"
-               BlueprintName = "ResultMacTests"
-               ReferencedContainer = "container:Result.xcodeproj">
+               BlueprintIdentifier = "D470AC4119E86128003DA6C6"
+               BuildableName = "Box-MacTests.xctest"
+               BlueprintName = "Box-MacTests"
+               ReferencedContainer = "container:Box.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52B9AF3A19C35F5F0039E5D7"
-            BuildableName = "ResultMac.framework"
-            BlueprintName = "ResultMac"
-            ReferencedContainer = "container:Result.xcodeproj">
+            BlueprintIdentifier = "D470AC3619E86128003DA6C6"
+            BuildableName = "Box.framework"
+            BlueprintName = "Box-Mac"
+            ReferencedContainer = "container:Box.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52B9AF3A19C35F5F0039E5D7"
-            BuildableName = "ResultMac.framework"
-            BlueprintName = "ResultMac"
-            ReferencedContainer = "container:Result.xcodeproj">
+            BlueprintIdentifier = "D470AC3619E86128003DA6C6"
+            BuildableName = "Box.framework"
+            BlueprintName = "Box-Mac"
+            ReferencedContainer = "container:Box.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52B9AF3A19C35F5F0039E5D7"
-            BuildableName = "ResultMac.framework"
-            BlueprintName = "ResultMac"
-            ReferencedContainer = "container:Result.xcodeproj">
+            BlueprintIdentifier = "D470AC3619E86128003DA6C6"
+            BuildableName = "Box.framework"
+            BlueprintName = "Box-Mac"
+            ReferencedContainer = "container:Box.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

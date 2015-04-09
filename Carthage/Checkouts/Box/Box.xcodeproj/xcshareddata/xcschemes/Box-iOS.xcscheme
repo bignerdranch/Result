@@ -14,24 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52B9AE9A19C35B1D0039E5D7"
-               BuildableName = "Result.framework"
-               BlueprintName = "Result"
-               ReferencedContainer = "container:Result.xcodeproj">
+               BlueprintIdentifier = "F8BB81D21A939B66001AA352"
+               BuildableName = "Box.framework"
+               BlueprintName = "Box-iOS"
+               ReferencedContainer = "container:Box.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52B9AEA519C35B1D0039E5D7"
-               BuildableName = "ResultTests.xctest"
-               BlueprintName = "ResultTests"
-               ReferencedContainer = "container:Result.xcodeproj">
+               BlueprintIdentifier = "F8BB81DC1A939B67001AA352"
+               BuildableName = "Box-iOSTests.xctest"
+               BlueprintName = "Box-iOSTests"
+               ReferencedContainer = "container:Box.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52B9AEA519C35B1D0039E5D7"
-               BuildableName = "ResultTests.xctest"
-               BlueprintName = "ResultTests"
-               ReferencedContainer = "container:Result.xcodeproj">
+               BlueprintIdentifier = "F8BB81DC1A939B67001AA352"
+               BuildableName = "Box-iOSTests.xctest"
+               BlueprintName = "Box-iOSTests"
+               ReferencedContainer = "container:Box.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52B9AE9A19C35B1D0039E5D7"
-            BuildableName = "Result.framework"
-            BlueprintName = "Result"
-            ReferencedContainer = "container:Result.xcodeproj">
+            BlueprintIdentifier = "F8BB81D21A939B66001AA352"
+            BuildableName = "Box.framework"
+            BlueprintName = "Box-iOS"
+            ReferencedContainer = "container:Box.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52B9AE9A19C35B1D0039E5D7"
-            BuildableName = "Result.framework"
-            BlueprintName = "Result"
-            ReferencedContainer = "container:Result.xcodeproj">
+            BlueprintIdentifier = "F8BB81D21A939B66001AA352"
+            BuildableName = "Box.framework"
+            BlueprintName = "Box-iOS"
+            ReferencedContainer = "container:Box.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52B9AE9A19C35B1D0039E5D7"
-            BuildableName = "Result.framework"
-            BlueprintName = "Result"
-            ReferencedContainer = "container:Result.xcodeproj">
+            BlueprintIdentifier = "F8BB81D21A939B66001AA352"
+            BuildableName = "Box.framework"
+            BlueprintName = "Box-iOS"
+            ReferencedContainer = "container:Box.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
