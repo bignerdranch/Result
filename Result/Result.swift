@@ -74,3 +74,17 @@ extension Result: Printable {
         }
     }
 }
+
+public func partitionResults<T>(results: [Result<T>]) -> ([T], [ErrorType]) {
+    var successes = [T]()
+    var failures = [ErrorType]()
+
+    for result in results {
+        switch result {
+        case let .Success(boxed): successes.append(boxed.value)
+        case let .Failure(error): failures.append(error)
+        }
+    }
+
+    return (successes, failures)
+}

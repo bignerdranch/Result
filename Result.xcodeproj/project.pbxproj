@@ -61,6 +61,20 @@
 			remoteGlobalIDString = F8BB81DD1A939B67001AA352;
 			remoteInfo = "Box-iOSTests";
 		};
+		52D461CC1AD628E200614571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BB81D21A939B66001AA352;
+			remoteInfo = "Box-iOS";
+		};
+		52D461D21AD628E700614571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43384ADB1AA8D9DE00BCEBFF /* Box.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D470AC3619E86128003DA6C6;
+			remoteInfo = "Box-Mac";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -231,6 +245,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				52D461CD1AD628E200614571 /* PBXTargetDependency */,
 			);
 			name = "Result-iOS";
 			productName = Result;
@@ -249,6 +264,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				52D461D31AD628E700614571 /* PBXTargetDependency */,
 			);
 			name = "Result-Mac";
 			productName = ResultMac;
@@ -431,6 +447,16 @@
 			isa = PBXTargetDependency;
 			target = 52B9AF3A19C35F5F0039E5D7 /* Result-Mac */;
 			targetProxy = 52B9AF4719C35F5F0039E5D7 /* PBXContainerItemProxy */;
+		};
+		52D461CD1AD628E200614571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Box-iOS";
+			targetProxy = 52D461CC1AD628E200614571 /* PBXContainerItemProxy */;
+		};
+		52D461D31AD628E700614571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Box-Mac";
+			targetProxy = 52D461D21AD628E700614571 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

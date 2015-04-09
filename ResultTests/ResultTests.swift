@@ -7,29 +7,26 @@
 //
 
 import XCTest
+import Result
+
+extension Bool: ErrorType {}
 
 class ResultTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
+
+    func testPartitionResults() {
+        let results: [Result<Int>] = [
+            Result(success: 1),
+            Result(success: 2),
+            Result(failure: true as ErrorType),
+            Result(success: 3),
+            Result(failure: false as ErrorType),
+        ]
+
+        let (successes, failures) = partitionResults(results)
+        XCTAssertEqual(successes, [1,2,3])
+        XCTAssertEqual(failures.count, 2)
+        XCTAssertEqual(failures[0] as! Bool, true)
+        XCTAssertEqual(failures[1] as! Bool, false)
     }
     
 }
