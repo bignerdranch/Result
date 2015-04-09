@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52B9AF3A19C35F5F0039E5D7"
-               BuildableName = "ResultMac.framework"
-               BlueprintName = "ResultMac"
+               BlueprintIdentifier = "52B9AE9A19C35B1D0039E5D7"
+               BuildableName = "Result.framework"
+               BlueprintName = "Result-iOS"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52B9AF4419C35F5F0039E5D7"
-               BuildableName = "ResultMacTests.xctest"
-               BlueprintName = "ResultMacTests"
+               BlueprintIdentifier = "5216BFDD1AD5FFA900789F1B"
+               BuildableName = "Result-iOSTests.xctest"
+               BlueprintName = "Result-iOSTests"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52B9AF4419C35F5F0039E5D7"
-               BuildableName = "ResultMacTests.xctest"
-               BlueprintName = "ResultMacTests"
+               BlueprintIdentifier = "5216BFDD1AD5FFA900789F1B"
+               BuildableName = "Result-iOSTests.xctest"
+               BlueprintName = "Result-iOSTests"
                ReferencedContainer = "container:Result.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52B9AF3A19C35F5F0039E5D7"
-            BuildableName = "ResultMac.framework"
-            BlueprintName = "ResultMac"
+            BlueprintIdentifier = "52B9AE9A19C35B1D0039E5D7"
+            BuildableName = "Result.framework"
+            BlueprintName = "Result-iOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52B9AF3A19C35F5F0039E5D7"
-            BuildableName = "ResultMac.framework"
-            BlueprintName = "ResultMac"
+            BlueprintIdentifier = "52B9AE9A19C35B1D0039E5D7"
+            BuildableName = "Result.framework"
+            BlueprintName = "Result-iOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +93,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52B9AF3A19C35F5F0039E5D7"
-            BuildableName = "ResultMac.framework"
-            BlueprintName = "ResultMac"
+            BlueprintIdentifier = "52B9AE9A19C35B1D0039E5D7"
+            BuildableName = "Result.framework"
+            BlueprintName = "Result-iOS"
             ReferencedContainer = "container:Result.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
